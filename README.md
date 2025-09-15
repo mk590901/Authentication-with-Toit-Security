@@ -4,7 +4,7 @@
 
 Storing __API Key__ and __Project ID__ as hard-coded values ​​in app is a serious security risk. If app is compromised (e.g. through decompilation or source code leakage), attackers can access this data and use it to gain unauthorized access to Firebase Realtime Database or other Firebase project services. This is especially dangerous because:
 * The __API Key__ gives access to all __Firebase APIs__, including __Authentication__, __Realtime Database__, and other services, unless security rules are strict.
-* The Project ID reveals the structure of project and can be used to form API URLs (e.g. https://<project-id>-default-rtdb.firebaseio.com/).
+* The __Project ID__ reveals the structure of project and can be used to form API URLs (e.g. https://<project-id>-default-rtdb.firebaseio.com/).
 * Since the methods for obtaining and renewing tokens (via __accounts:signUp__ and __securetoken.googleapis.com/v1/token__) are standard and documented, an attacker with an __API key__ can easily authenticate and access data if the database security rules are not strict enough.
 
 ## Guidelines for secure API key and Project ID management
