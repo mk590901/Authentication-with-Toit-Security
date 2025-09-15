@@ -15,7 +15,7 @@ To help minimize risks, can:
 
 ## Implementation
 
-Current implementation uses the simplest method of protection: isolating some variables and storing them outside the application. This applies to the URI_AUTH, URI_DB, and URI_REFRESH variables. In the users.toit application, these variables will be initialized as follows:
+Current implementation uses the simplest method of protection: isolating some variables and storing them outside the application. This applies to the __URI_AUTH__, __URI_DB__, and __URI_REFRESH__ variables. In the users.toit application, these variables will be initialized as follows:
 
 ```
 URI_AUTH    := load_uri_auth
