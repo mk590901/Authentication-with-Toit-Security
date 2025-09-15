@@ -27,3 +27,8 @@ To create a variable storage environment, the __storage_init.toit__ app was writ
 
 The app also includes saving the current token and refresh token to flash storage to minimize the number of requests to the cloud.
 
+## Conclusion
+
+The method used to protect critical variables is clearly insufficient, but this is only the first step for solve problem.
+
+
