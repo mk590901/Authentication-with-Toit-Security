@@ -1,6 +1,6 @@
 import .storage_utils
 
-API_KEY := "AIzaSyB9puHJBfrFuNNoFYBHXvUQFpO6kE7W4eQ"
+API_KEY := "AAAAASA"
 
 main :
 
