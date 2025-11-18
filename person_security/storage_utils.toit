@@ -148,7 +148,7 @@ save_uri_auth api_key/string -> bool :
   return save_path "uri_auth" "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=$api_key"
 
 save_uri_db -> bool :
-  return save_path "uri_db" "https://auth-2b7d3-default-rtdb.firebaseio.com/users.json"
+  return save_path "uri_db" "XXXXXXX"
 
 save_uri_refresh api_key/string -> bool :
   return save_path "uri_refresh" "https://securetoken.googleapis.com/v1/token?key=$api_key"
